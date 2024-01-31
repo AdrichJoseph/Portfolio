@@ -58,3 +58,11 @@ html {
     width: 100% !important;
   }
 }
+
+
+@media (min-width: 1280px) {
+  .headerShow{
+    background-color: black;
+    box-shadow: #d90429 -10px 25px 50px 10px;
+  }
+}
