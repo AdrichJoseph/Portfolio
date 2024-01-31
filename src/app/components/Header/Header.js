@@ -48,7 +48,7 @@ export default function Header() {
          // backgroundColor: isScrolled ? "#000000" : "#880808",
          // boxShadow: isScrolled ? "#d90429 -10px 25px 50px 10px" : "",
        // }}
-       
+
       >
         <div className="relative">
           <div
@@ -107,8 +107,8 @@ export default function Header() {
               )}
               <a
                 className={`menu-item ${
-                  selectedIndex1 === 2 ? "text-[#ffffff]" : ""
-                } text-[#FFD700] group hover:text-white`}
+                  selectedIndex1 === 2 ? "text-[#161a1d]" : ""
+                } text-[#FFD700] group hover:text-[#161a1d]`}
                 href="/#about-me-component"
                 onClick={() => setSelectedIndex1(2)}
               >
