@@ -44,10 +44,10 @@ export default function Header() {
         className={`${
           isScrolled ? "headerShow" : ""
         } w-full fixed top-0 z-50 transition-all duration-500`}
-       // style={{
-         // backgroundColor: isScrolled ? "#000000" : "#880808",
-         // boxShadow: isScrolled ? "#d90429 -10px 25px 50px 10px" : "",
-       // }}
+        style={{
+          backgroundColor: isScrolled ? "#000000" : "#880808",
+          boxShadow: isScrolled ? "#d90429 -10px 25px 50px 10px" : "",
+        }}
 
       >
         <div className="relative">
@@ -107,8 +107,8 @@ export default function Header() {
               )}
               <a
                 className={`menu-item ${
-                  selectedIndex1 === 2 ? "text-[#161a1d]" : ""
-                } text-[#FFD700] group hover:text-[#161a1d]`}
+                  selectedIndex1 === 2 ? "text-[#ffffff]" : ""
+                } text-[#FFD700] group hover:text-[#ffffff]`}
                 href="/#about-me-component"
                 onClick={() => setSelectedIndex1(2)}
               >
