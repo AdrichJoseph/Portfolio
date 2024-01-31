@@ -1,0 +1,17 @@
+.diagonal-drawer{
+    top: 0;
+    width: 100%;
+    height: 100vh;  
+    position: fixed;
+    transform-origin: top right;
+    transform: translate(-100%, -100%);
+    transition: transform 0.5s ease-in-out;
+    z-index: 100;
+    cursor: pointer;
+
+}
+
+.diagonal-drawer.open{
+    transform: translate(0, 0);
+}
+
